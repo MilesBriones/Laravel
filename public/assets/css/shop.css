@@ -1,0 +1,40 @@
+header{
+    height: 70px;
+    background: rgb(40, 165, 248);
+    color:rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar {
+background-color: #ece935de;
+color: white;
+height: 100vh;
+padding: 20px;
+position: fixed;
+top: 20;
+left: 0;
+width: 250px;
+transition: all 0.3s ease-in-out;
+z-index: 999;
+}
+.sidebar .menu-item {
+margin-bottom: 10px;
+}
+
+.sidebar .menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    background-color: #343a40;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    margin-top: 10px; /* Avoids overlap with the fixed header */
+    transition: margin-left 0.3s ease-in-out;
+}
