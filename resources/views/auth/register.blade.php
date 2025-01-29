@@ -36,7 +36,7 @@
 
 .form-control {
     background-color: #fff; 
-    color: #fff;
+    color: #000;
     border: 1px solid #555; 
     border-radius: 5px;
 }

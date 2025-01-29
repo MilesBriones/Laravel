@@ -38,7 +38,7 @@
     background-color: #fff;
     border: none;
     border-radius: 0;
-    color: #fff;
+    color: #000;
     padding: 12px 15px;
     border-radius: 10px;
 }
